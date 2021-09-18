@@ -36,7 +36,7 @@ type LogRotate struct {
 
 func init() {
 	InstallPlugin(&PluginConfig{
-		Name:   "LogRotate",
+		Name:   "LiveLogRotate",
 		Config: &config,
 		Run:    run,
 	})
